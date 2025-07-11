@@ -34,10 +34,6 @@ This captures how changes in parameters affect predictions at different input po
 
 For a dataset $\( \{\mathbf{x}_1, \dots, \mathbf{x}_n\} \)$, the **empirical NTK matrix** $\( \Theta \in \mathbb{R}^{n \times n} \)$ is:
 
-$$
-\Theta_{ij} = \nabla_\theta f(\mathbf{x}_i, \theta)^\top \nabla_\theta f(\mathbf{x}_j, \theta)
-$$
-
 This matrix measures **pairwise similarity in the parameter gradient space**.
 
 ---
